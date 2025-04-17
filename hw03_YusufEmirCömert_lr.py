@@ -137,7 +137,6 @@ def main():
 
     scores = bias_scores(train_df)
 
-    scores = bias_scores(train_df)
     print(scores[:2])
     print(scores[-2:])
 
