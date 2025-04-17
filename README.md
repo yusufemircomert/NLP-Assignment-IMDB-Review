@@ -1,6 +1,5 @@
-Outputs of Naive Bayes:
+# Outputs of Naive Bayes:
 
---------------------------------------
 print(nb.total_pos_words)\
 print(nb.total_neg_words)\
 print(nb.vocab_size)\
@@ -42,3 +41,13 @@ Negative\
 print(f"Accuracy: {accuracy:.5f}")\
 Accuracy: 0.82464\
 --------------------------------
+# Outputs Of Logistic Regression
+
+scores = bias_scores(train_df)
+
+print(scores[:2])\
+print(scores[-2:])
+
+[('worst', 252, 2480, 2732, 6.453036011602796), ('waste', 99, 1359, 1458, 6.295524245429657)]\
+[('vinci', 3, 10, 13, 1.3811265770946735), ('indigenous', 10, 3, 13, 1.3811265770946735)]
+
