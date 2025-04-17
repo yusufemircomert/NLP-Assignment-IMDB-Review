@@ -1,7 +1,7 @@
 Outputs of Naive Bayes:
 
 --------------------------------------
-print(nb.total_pos_words)
+print(nb.total_pos_words)\
 print(nb.total_neg_words)
 print(nb.vocab_size)
 print(nb.prior_pos)
