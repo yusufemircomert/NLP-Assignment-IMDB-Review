@@ -52,3 +52,4 @@ print(scores[-2:])
 [('vinci', 3, 10, 13, 1.3811265770946735), ('indigenous', 10, 3, 13, 1.3811265770946735)]
 
 Result:
+![plot](https://github.com/yusufemircomert/NLP-Assignment-IMDB-Review/blob/main/LR_Result.png?raw=true)
