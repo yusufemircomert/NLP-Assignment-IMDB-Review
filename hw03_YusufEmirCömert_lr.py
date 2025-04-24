@@ -82,8 +82,8 @@ def bias_scores(train_df): # Used AI in the for loop where word in all_words
         score = abs(fp - fn) / ft * math.log(ft)
         scores.append((word, fp, fn, ft, score))
 
-    # Sort the scores based on the bias score
-    scores.sort(key=lambda x: x[4], reverse=True)
+    # Sort first by score (descending), then by word (ascending)
+    scores.sort(key=lambda x: (-x[4], x[0]))
     return scores[:10000]
 
 # Function to vectorize the text data using the top 10000 words
