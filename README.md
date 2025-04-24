@@ -48,8 +48,9 @@ scores = bias_scores(train_df)
 print(scores[:2])\
 print(scores[-2:])
 
-[('worst', 252, 2480, 2732, 6.453036011602796), ('waste', 99, 1359, 1458, 6.295524245429657)]\
-[('vinci', 3, 10, 13, 1.3811265770946735), ('indigenous', 10, 3, 13, 1.3811265770946735)]
+[(’worst’, 252, 2480, 2732, 6.453036011602796), (’waste’, 99, 1359, 1458, 6.295524245429657)]\
+[(’complimented’, 10, 3, 13, 1.3811265770946735), (’conformity’, 10, 3, 13, 1.3811265770946735)]
+
 
 Result:
 ![plot](https://github.com/yusufemircomert/NLP-Assignment-IMDB-Review/blob/main/LR_Result.png?raw=true)
